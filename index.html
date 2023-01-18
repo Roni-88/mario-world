@@ -10,22 +10,30 @@
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-    <header>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted src="src/videos/video-mario.mp4" type="video/mp4"></video>
+    </div>
+    <header class="cabecalho">
         <a href="">
-            <img src="src/images/logo-chapeu-mario.png" alt="Logo Mario">
+            <img class="logo" src="src/images/logo-chapeu-mario.png" alt="Logo Mario">
         </a>
 
         <nav>
-
+            <ul class="menu">
+                <li>Home</li>
+                <li>Detalhes</li>
+            </ul>
         </nav>
     </header>
 
-    <main>
-        <div>
-
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="src/images/titulo.png" alt="Imagem do título">
+            <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam consequuntur a impedit commodi nihil vero, cum dolore voluptatum qui sequi suscipit, voluptas, amet similique. Ad corporis aliquid provident itaque nihil!</p>
+            <button class="botao-trailer">Veja o trailer</button>
         </div>
 
-        <img src="src/images/super-mario-chars.png" alt="Time do Mario">
+        <img class="mario" src="src/images/super-mario-chars.png" alt="Time do Mario">
     </main>
 
     <script src="src/index.js"></script>
