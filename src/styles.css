@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;300;500&display=swap');
 
 body{
+    background-image: url(../src/videos/video-mario.mp4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.cabecalho .logo {
+    width: 120px;
+    padding: 30px 0 0 50px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.menu li {
+    align-items: center;
+    padding: 50px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
 }
